@@ -85,4 +85,8 @@ body {
   .header-title {
     font-size: 2rem;
   }
+
+  .btn {
+    height: 58px;
+  }
 }
