@@ -44,7 +44,6 @@ body {
 }
 
 .input-ip {
-  position: relative;
   width: 100%;
   max-width: 450px;
   padding: 1rem 1rem;
@@ -61,6 +60,7 @@ body {
 }
 
 .btn {
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -68,10 +68,10 @@ body {
   cursor: pointer;
   background-color: var(--very-dark-gray);
   border: none;
-  margin-left: -40px;
+  margin-left: -55px;
+  right: 0;
   width: 60px;
   height: 51px;
-  z-index: 1;
 }
 
 @media (max-width: 768px) {
