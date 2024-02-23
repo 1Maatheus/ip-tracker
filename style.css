@@ -25,14 +25,14 @@ body {
 .header {
   background: url(./images/pattern-bg-desktop.png) no-repeat center center/cover;
   width: 100vw;
-  height: 290px;
+  height: 240px;
   padding: 2rem 0;
 }
 
 .header-title {
   color: #fff;
   font-weight: 500;
-  font-size: 2.5rem;
+  font-size: 2rem;
   text-align: center;
 }
 
@@ -46,8 +46,8 @@ body {
 .input-ip {
   position: relative;
   width: 100%;
-  max-width: 550px;
-  padding: 1.2rem 1rem;
+  max-width: 450px;
+  padding: 1rem 1rem;
   border-radius: 15px;
   border: none;
   outline: none;
@@ -70,7 +70,7 @@ body {
   border: none;
   margin-left: -40px;
   width: 60px;
-  height: 57px;
+  height: 51px;
   z-index: 1;
 }
 
@@ -87,6 +87,6 @@ body {
   }
 
   .btn {
-    height: 58px;
+    height: 51px;
   }
 }
