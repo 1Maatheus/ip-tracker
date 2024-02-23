@@ -6,7 +6,7 @@ const getAddres = async () => {
   const apiUrl = `http://ip-api.com/json/${ipNumber}`;
   const response = await fetch(apiUrl);
   const data = await response.json();
-
+  inputIp.value = "";
   console.log(data);
 };
 
